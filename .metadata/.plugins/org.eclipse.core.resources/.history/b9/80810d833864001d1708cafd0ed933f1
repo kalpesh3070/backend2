@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+body{
+margin: 20px;
+padding: 20px;
+font-family: montserrat;
+background: linear-gradient(120deg,#2980b9,#8e44ad);
+height: 100vh;
+overflow:hidden;
+}
+
+.ticket{
+	width : 250px;
+	height:250px;
+	margin:250px auto;
+	size: 500px;
+	font-size:10px;
+	padding:20px 40px;
+}
+.view{
+	width : 100%;
+	margin:250px auto;
+	size: 500px;
+}
+
+.cancel{
+	width : 100%;
+	margin:250px auto;
+	size: 500px
+	
+}

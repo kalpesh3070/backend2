@@ -1,0 +1,9 @@
+package com;
+
+import main.user;
+
+public interface DSuser {
+
+	
+	
+}

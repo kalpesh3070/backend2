@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<label>First Name</label>
+<input type="text" name="name" placeholder="First Name"><br>
+<label>Last Name</label>
+<input type="text" name="lastname" placeholder="Last Name"><br>
+<label>Age</label>
+<input type="text" name="age" placeholder="Age"><br>
+<label>Passport Number</label>
+<input type="text" name="passport number" placeholder="Passport Number"><br>
+<label>Date Of Birth</label>
+<input type="date" name="dob"><br>
+<input type="submit" value="Book">
+</center>
+</body>
+</html>

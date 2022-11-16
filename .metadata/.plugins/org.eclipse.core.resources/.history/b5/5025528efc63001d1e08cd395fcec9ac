@@ -1,0 +1,10 @@
+package com;
+
+import main.user;
+
+public interface DSuser {
+
+	boolean login(Controller controller);
+	boolean signup(Controller controller);
+	
+}

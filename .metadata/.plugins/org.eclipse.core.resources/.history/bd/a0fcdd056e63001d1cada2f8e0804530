@@ -1,0 +1,24 @@
+package main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class signinImpo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Configuration con = new Configuration();
+		con.configure("hibernatete.cfg.xml");
+		SessionFactory factory = con.buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction transaction = session.beginTransaction();
+		signin signin = new signin("prem","prem123");
+		session.save(signin);
+		transaction.commit();
+		
+
+	}
+
+}

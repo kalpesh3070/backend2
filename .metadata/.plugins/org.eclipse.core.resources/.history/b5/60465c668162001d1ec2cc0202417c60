@@ -1,0 +1,56 @@
+package com;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpFilter;
+
+import com.mysql.cj.Session;
+
+
+@WebFilter("/Register")
+public class RegFliter extends HttpFilter implements Filter {
+       
+   
+    public RegFliter() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	public void destroy() {
+		// TODO Auto-generated method stub
+	}
+
+	
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		
+		
+		int ticketprice =parseInt( request.getParameter("option"));
+		if(ticketprice>1) {
+			ticketprice = ticketprice*3000;
+			chain.doFilter(request, response);
+		}
+		else {
+			ticketprice=3000;
+		chain.doFilter(request, response);
+		}
+	}
+
+	
+	private int parseInt(String parameter) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	public void init(FilterConfig fConfig) throws ServletException {
+	
+	}
+
+}

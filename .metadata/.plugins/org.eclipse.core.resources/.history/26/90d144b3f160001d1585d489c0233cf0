@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Go Airways</title>
+</head>
+<body>
+<form action="search">
+<center>
+<h1>Search</h1>
+<lable color="blue">From</lable> 
+<input type="text" name="from" placeholder="From">
+<lable>To</lable> 
+<input type="text" name="To" placeholder="To">
+<input type="date" name="date">
+<label>Presons</label>
+<select>
+<option value="1">1
+</option>
+<option value="2">2
+</option>
+<option value="3">3
+</option>
+<option value="4">4
+</option>
+<option value="5">5
+</option>
+<option value="6">6
+</option>
+<option value="7">7
+</option>
+<option value="8">8
+</option>
+<option value="9">9
+</option>
+<option value="10">10
+</option>
+</select>
+<input type="submit" value="Search Flight">
+
+</form>
+</center>
+</body>
+</html>

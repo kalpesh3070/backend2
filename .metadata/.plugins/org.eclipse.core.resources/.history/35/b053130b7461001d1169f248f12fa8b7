@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<h1>Booking Details</h1>
+<label>First Name</label>
+<input type="text" name="name" placeholder="First Name" size="20"><br><br>
+<label>Last Name</label>
+<input type="text" name="lastname" placeholder="Last Name" size="20"><br><br>
+<label>Age</label>
+<input type="text" name="age" placeholder="Age" size="20"><br><br>
+<label>Passport Number</label>
+<input type="text" name="passport number" placeholder="Passport Number" size="20"><br><br>
+<label>Date Of Birth</label>
+<input type="date" name="dob"size="20"><br><br>
+<label>Persons</label>
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+</select>
+<input type="submit" value="Book">
+</center>
+</body>
+</html>

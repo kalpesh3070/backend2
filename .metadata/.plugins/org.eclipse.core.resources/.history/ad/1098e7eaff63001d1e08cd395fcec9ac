@@ -1,0 +1,34 @@
+package com;
+
+public class Controller {
+	
+	int Passportnumber;
+	
+public Controller() {
+		
+	}
+
+	
+	public Controller(int passportnumber) {
+		super();
+		Passportnumber = passportnumber;
+	}
+
+
+	public int getPassportnumber() {
+		return Passportnumber;
+	}
+
+
+	public void setPassportnumber(int passportnumber) {
+		Passportnumber = passportnumber;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Controller [Passportnumber=" + Passportnumber + "]";
+	}
+	
+
+}

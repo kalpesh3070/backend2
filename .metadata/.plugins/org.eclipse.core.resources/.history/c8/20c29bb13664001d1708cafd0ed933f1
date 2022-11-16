@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+body{
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background: linear-gradient(120deg,#2980b9,#8e44ad);
+height: 100vh;
+overflow:hidden;
+}
+
+.ticket{
+	width : 500px;
+	margin:250px auto;
+}

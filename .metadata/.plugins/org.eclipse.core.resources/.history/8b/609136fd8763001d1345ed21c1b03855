@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="body">
+<center>
+<form action="Mytickets">
+
+<label>PassportNo</label>
+<input type="text" name="passportnumber" placeholder="PassportNumber">
+
+<input type="submit" value="Search">
+
+</div>
+</form>
+</center>
+</body>
+</html>

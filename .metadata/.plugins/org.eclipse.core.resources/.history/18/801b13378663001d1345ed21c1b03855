@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+body{
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background: linear-gradient(120deg,#2980b9,#8e44ad);
+height: 100vh;
+overflow:hidden;
+}
+
+.lable{
+width : 500px;
+background-color: rgba(0,0,0,.5);
+padding:10px 20px 30px;
+margin:250px auto;
+color:white;
+font-size:15px;
+border-radius: 15px;
+
+}
+
+.lable h1{
+	color:#f603a3;
+	text-align: center;
+}
+
+.lable lable{
+	display:block;
+}
+
+.input input{
+	
+	width:50%;
+	font-size:1.5em;
+	box-shadow: 2px;
+	border-radius: 8px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}

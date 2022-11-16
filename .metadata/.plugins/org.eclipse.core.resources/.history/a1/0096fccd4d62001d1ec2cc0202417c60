@@ -1,0 +1,56 @@
+package com;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/Mytickets")
+public class Mytickets extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html");
+		int Passportnumber = Integer.parseInt(request.getParameter("passport number"));
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Working1");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost/airlines","root","@Prem2arul");
+			System.out.println("Working2");
+			Statement st = con.createStatement();
+			int res = st.executeUpdate();
+			con.close();
+			
+		}
+		
+		catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			out.print("class not found");
+			e.printStackTrace();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+			out.println("sql erroe");
+			
+		}
+		
+		}
+
+		
+	}
+
+}

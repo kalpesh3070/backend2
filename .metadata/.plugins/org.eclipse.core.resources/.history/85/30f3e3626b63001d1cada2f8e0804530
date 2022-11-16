@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<center>
+<div class="head">
+<h1>SS Airlines</h1>
+</div>
+<div class="center">
+<h1>LOGIN</h1>
+<form action="loginservlet" ></form>
+
+<div class="text_field">
+<lable>User Name</lable>
+<input type="text" placeholder="User Name" required>
+
+</div>
+
+<div class="text_field">
+<lable>Password</lable>
+<input type="Password" placeholder="Password" required>
+
+</div>
+
+<div class ="btn"><button type="submit">login</button></div>
+
+<div class="signup_link"><a href="http://localhost:8080/flyaway/signup.html"></a>SignUp</div>
+
+
+</div>
+</center>
+</body>
+</html>

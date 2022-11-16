@@ -1,0 +1,83 @@
+package com;
+
+public class Controller {
+	String Firstname;
+    String Lastname;
+	int Age;
+	int Passportnumber;
+	int ticketprice;
+	
+public Controller() {
+		
+	}
+
+
+public Controller(String firstname, String lastname, int age, int passportnumber, int ticketprice) {
+	super();
+	Firstname = firstname;
+	Lastname = lastname;
+	Age = age;
+	Passportnumber = passportnumber;
+	this.ticketprice = ticketprice;
+}
+
+
+public String getFirstname() {
+	return Firstname;
+}
+
+
+public void setFirstname(String firstname) {
+	Firstname = firstname;
+}
+
+
+public String getLastname() {
+	return Lastname;
+}
+
+
+public void setLastname(String lastname) {
+	Lastname = lastname;
+}
+
+
+public int getAge() {
+	return Age;
+}
+
+
+public void setAge(int age) {
+	Age = age;
+}
+
+
+public int getPassportnumber() {
+	return Passportnumber;
+}
+
+
+public void setPassportnumber(int passportnumber) {
+	Passportnumber = passportnumber;
+}
+
+
+public int getTicketprice() {
+	return ticketprice;
+}
+
+
+public void setTicketprice(int ticketprice) {
+	this.ticketprice = ticketprice;
+}
+
+
+@Override
+public String toString() {
+	return "Controller [Firstname=" + Firstname + ", Lastname=" + Lastname + ", Age=" + Age + ", Passportnumber="
+			+ Passportnumber + ", ticketprice=" + ticketprice + "]";
+}
+
+
+	
+}

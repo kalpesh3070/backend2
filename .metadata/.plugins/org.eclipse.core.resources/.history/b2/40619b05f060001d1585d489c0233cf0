@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="search">
+
+<lable>From</lable> 
+<input type="text" name="from" placeholder="From">
+<lable>To</lable> 
+<input type="text" name="To" placeholder="To">
+
+
+</form>
+
+</body>
+</html>

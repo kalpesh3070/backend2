@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+body
+{
+	font-family: Tahoma, sans-serif;
+	background:("C:\Users\91782\OneDrive\Documents\Pictures\Camera Roll\(4) WhatsApp_files");
+	background-size:cover;
+	background-attachment: fixed;
+}

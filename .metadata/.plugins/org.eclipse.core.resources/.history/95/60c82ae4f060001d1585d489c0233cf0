@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Go Airways</title>
+</head>
+<body>
+<form action="search">
+
+<lable>From</lable> 
+<input type="text" name="from" placeholder="From">
+<lable>To</lable> 
+<input type="text" name="To" placeholder="To">
+<input type="date" name="date">
+<input type="submit" value="Search Flight">
+
+</form>
+
+</body>
+</html>

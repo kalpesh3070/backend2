@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="booking.css">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="lable">
+
+<form action="Register">
+<center>
+<h1>Booking Details</h1>
+<div class="body">
+<label>First Name</label>
+
+<div class="input">
+<input type="text" name="name" placeholder="First Name" size="20"><br><br>
+<label>Last Name</label>
+</div>
+
+<div class="input">
+<input type="text" name="lastname" placeholder="Last Name" size="20"><br><br>
+</div>
+
+<label>Age</label>
+<div class="input">
+<input type="text" name="age" placeholder="Age" size="20"><br><br>
+</div>
+
+<label>Passport Number</label>
+<div class="input">
+<input type="text" name="phonenumber" placeholder="PhoneNumber " size="20"><br><br>
+</div>
+
+<label>No of persons</label>
+<div class="input">
+<input type="text" name="option" placeholder="Persons" size="20"><br><br>
+</div>
+
+</select>
+<div class="submit">
+<input type="submit" value="Book">
+</center>
+</div>
+</div>
+
+</body>
+</html>

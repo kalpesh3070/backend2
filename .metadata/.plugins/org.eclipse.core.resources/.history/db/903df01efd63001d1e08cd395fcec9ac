@@ -1,0 +1,12 @@
+package main;
+
+import com.Controller;
+
+public interface userDao {
+	boolean login(user user);
+	boolean signup(user user);
+	boolean login(Controller controller);
+	boolean signup(Controller controller);
+
+
+}

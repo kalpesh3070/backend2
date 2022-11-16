@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link ref="stylesheet" href="/index.css" type="text/css">
+</head>
+<body>
+<div class="center">
+<h1>LOGIN</h1>
+<form action="" ></form>
+<div class="text_field">
+<input type="text" required>
+<lable>User Name</lable>
+</div>
+<div class="text_field">
+<input type="Password" required>
+<lable>Password</lable>
+</div>
+<input type="submit" value="login">
+<div class="signup_link"><a href=""></a>SignUp</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="My_ticket.css">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="body">
+<center>
+<form action="Mytickets">
+<h1>MY TICKET</h1>
+<label>PassportNo</label>
+<input type="text" name="passportnumber" placeholder="PassportNumber">
+<div>
+<input type="submit" value="Search">
+</div>
+
+
+</div>
+</form>
+</center>
+</body>
+</html>

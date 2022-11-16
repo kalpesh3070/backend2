@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="home.css">
+<title>Go Airways</title>
+</head>
+<body>
+<form action="search">
+<center>
+<div class="lable">
+
+<h1>Search</h1>
+<div class= "body">
+
+<lable >From</lable> 
+<div class="input">
+<input  type="text" name="from" placeholder="From"><br>
+</div>
+<div class="input">
+<lable>To</lable> 
+<input type="text" name="To" placeholder="To"><br>
+</div>
+<div class="date">
+Date<input type="date" name="date"><br>
+</div>
+<div class="submit">
+<input type="submit" value="Search Flight">
+</div>
+</div>
+</form>
+</center>
+</div>
+</body>
+</html>

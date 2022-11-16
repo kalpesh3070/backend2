@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+</head>
+
+<body>
+
+<div class="regform">
+
+<h2>Sign Up</h2>
+
+<form action="">
+
+<div class=" input ">
+
+<lable class="textlable" for="name">User Name</lable> <input id="name" type="text" name="name">
+
+</div>
+
+<div class="input">
+
+<lable class="textlable" for="email">E-mail</lable>
+
+<input id="email" type="email" name="email">
+
+</div>
+
+<div class="input">
+
+<lable class="textlable" for="pass">Password</table> <input id="pass" type="password" name="pass">
+
+</div>
+
+<div class="radio">
+
+<input id="male" type="radio" name="gender" value="male">
+
+whitespace
+
+<lable for="male">Male</lable>
+
+whitespace
+
+<input id="Female" type="radio" name="gender" value="Female">
+
+whitespace
+
+<lable for="Female">Female</lable>
+
+</div>
+
+<div class="btn">
+
+<button type="submite">Register</button>
+
+</div>
+
+</form>
+
+</div>
+
+
+
+</body>
+</html>

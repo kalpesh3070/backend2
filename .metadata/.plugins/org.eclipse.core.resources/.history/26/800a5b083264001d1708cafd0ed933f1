@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+<a href="">BookTicket</a>
+</div>
+<div>
+<a href="http://localhost:8080/flyaway/Delet.html">Cancel Ticket</a>
+</div>
+<div>
+<a href="">View Flight Timing</a>
+</div>
+<div>
+<a href="">Search My Ticket</a>
+</div>
+</body>
+</html>
